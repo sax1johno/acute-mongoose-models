@@ -1,0 +1,29 @@
+{
+    "name": "acute-mongoose-models",
+    "description": "An aCute app plugin for using using and access data sources in an express-like app container",
+    "version": "0.0.1",
+    "main": "lib/index.js",
+    "author": {
+        "name": "John O'Connor",
+        "email": "sax1johno@gmail.com"
+    },
+    "contributors": [{
+        "name": "John O'Connor",
+        "email": "sax1johno@gmail.com"
+    }],
+    "dependencies": {
+        "underscore": "*",
+        "async": "*",
+        "mongoose": "*",
+        "util": "*",
+        "path": "*"
+    },    
+    "plugin": {
+        "provides": ["models"],
+        "consumes": [
+            "app",
+            "data",
+            "utils"
+        ]
+    }
+}
