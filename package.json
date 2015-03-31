@@ -1,29 +1,53 @@
 {
-    "name": "acute-mongoose-models",
-    "description": "An aCute app plugin for using using and access data sources in an express-like app container",
-    "version": "0.0.1",
-    "main": "lib/index.js",
-    "author": {
-        "name": "John O'Connor",
-        "email": "sax1johno@gmail.com"
-    },
-    "contributors": [{
-        "name": "John O'Connor",
-        "email": "sax1johno@gmail.com"
-    }],
-    "dependencies": {
-        "underscore": "*",
-        "async": "*",
-        "mongoose": "*",
-        "util": "*",
-        "path": "*"
-    },    
-    "plugin": {
-        "provides": ["models"],
-        "consumes": [
-            "app",
-            "data",
-            "utils"
-        ]
-    }
+  "name": "acute-mongoose-models",
+  "description": "An aCute app plugin for using using and access data models using mongoose and mongodb",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "author": "John O'Connor <sax1johno@gmail.com>",
+  "contributors": [
+    "John O'Connor <sax1johno@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sax1johno/acute-mongoose-models.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sax1johno/acute-mongoose-models/issues"
+  },
+  "keywords": [
+    "acute",
+    "data",
+    "mongoose",
+    "mongodb",
+    "mongo"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "underscore": "*",
+    "async": "*",
+    "mongoose": "*",
+    "util": "*",
+    "path": "*",
+    "ghiraldi-schema-registry": "*",
+    "mongoose-schema-registry": "*",
+    "mocha": "*",
+    "findit": "*"
+  },
+  "plugin": {
+    "provides": [
+      "models"
+    ],
+    "consumes": [
+      "app",
+      "data",
+      "utils"
+    ]
+  },
+  "homepage": "https://github.com/sax1johno/acute-mongoose-models",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
