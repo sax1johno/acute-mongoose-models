@@ -28,7 +28,6 @@
     "mongoose": "*",
     "util": "*",
     "path": "*",
-    "ghiraldi-schema-registry": "*",
     "mongoose-schema-registry": "*",
     "mocha": "*",
     "findit": "*"
