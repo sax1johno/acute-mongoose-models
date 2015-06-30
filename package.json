@@ -30,7 +30,8 @@
     "path": "*",
     "mongoose-schema-registry": "*",
     "mocha": "*",
-    "findit": "*"
+    "findit": "*",
+    "chai": "*"
   },
   "plugin": {
     "provides": [
