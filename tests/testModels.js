@@ -53,10 +53,10 @@ describe('models', function() {
                         if (err) {
                             done(err);
                         } else {
-                            var testModel = new Model();
-                            testModel.name = "test";
-                            testModel.id = "12345";
-                            console.log(sutil.inspect(testModel));
+                            // var testModel = new Model();
+                            // testModel.name = "test";
+                            // testModel.id = "12345";
+                            // console.log(sutil.inspect(testModel));
                             done();
                         }
                     });
