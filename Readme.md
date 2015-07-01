@@ -3,16 +3,8 @@
 The aCute Mongoose Models plugin creates a framework for using mongoose data models within
 an aCute app.
 
-A model is a file that represents a data model in various formats.  Data models have the following
-interface:
-
-module.exports = {
-    name: "",
-    schema: schema
-}
-
-where the "name" represents the name of the data model and the "schema" is the data schema for
-the model.
+The acute mongoose models plugin uses a schema registry to allow developers to progressively enhance
+a schema across multiple different apps and plugins.
 
 <!--# Dillinger-->
 
