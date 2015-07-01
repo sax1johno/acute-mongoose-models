@@ -1,7 +1,7 @@
 {
   "name": "acute-mongoose-models",
   "description": "An aCute app plugin for using using and access data models using mongoose and mongodb",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "lib/index.js",
   "author": "John O'Connor <sax1johno@gmail.com>",
   "contributors": [
